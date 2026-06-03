@@ -1,0 +1,41 @@
+Version 4
+SymbolType CELL
+LINE Normal -16 16 -16 -16
+LINE Normal 16 16 -16 16
+LINE Normal 16 -16 16 16
+LINE Normal -16 -32 16 -32
+LINE Normal 0 14 -2 16
+LINE Normal 2 16 0 14
+LINE Normal -32 0 -16 0
+LINE Normal 0 32 0 16
+LINE Normal 32 -16 16 -16
+LINE Normal -16 -48 -16 -32
+LINE Normal 16 -48 16 -32
+LINE Normal -16 -32 -16 -16
+LINE Normal 16 -32 16 -16
+LINE Normal 32 0 16 0
+TEXT -45 0 Left 0 D
+TEXT -9 41 Left 0 CLK
+TEXT 40 -16 Left 0 Y
+TEXT -25 -58 Left 0 vdd
+TEXT 4 -59 Left 0 vgnd
+TEXT 38 -1 Left 0 ~Y
+WINDOW 0 -27 -72 Left 0
+PIN -32 0 NONE 8
+PINATTR PinName D
+PINATTR SpiceOrder 1
+PIN 0 32 NONE 8
+PINATTR PinName CLK
+PINATTR SpiceOrder 2
+PIN 32 -16 NONE 8
+PINATTR PinName Y
+PINATTR SpiceOrder 3
+PIN -16 -48 NONE 8
+PINATTR PinName vdd
+PINATTR SpiceOrder 4
+PIN 16 -48 NONE 8
+PINATTR PinName vgnd
+PINATTR SpiceOrder 5
+PIN 32 0 NONE 8
+PINATTR PinName ~Y
+PINATTR SpiceOrder 6
